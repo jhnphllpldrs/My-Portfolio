@@ -1,0 +1,64 @@
+.portfolio .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+  animation: bounceIn 2s;
+  display: flex;
+  animation-iteration-count: infinite;
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0% {transform: scale(0.1);opacity: 0;}
+    60% {transform: scale(1.2);opacity: 1;}
+    100% {transform: scale(1);}
+    
+}
+.portfolio .navbar {
+  padding: 1rem 20rem;
+}
+.portfolio .nav-item .nav-link {
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: black;
+}
+.portfolio .navbar-nav a:hover {
+  background: linear-gradient(90 deg, blue 0%, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: blue;
+  background-clip: text;
+}
+/*.logo-link {
+    animation: bounceIn 2s;
+    display: flex;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+    animation-timing-function: ease;
+  }
+  @keyframes bounce {
+    0%   { transform: translateY(60px); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(60px); }
+  }*/
+
+/******************ABOUT ME**********************/
+/******************KNOWLEDGE**********************/
+/******************EXPERIENCE*********************/
+/******************CONTACTS**********************/
+input[type=text], select, textarea {
+    width: 90%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 1px; /* Add a top margin */
+    margin-bottom: 40px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding: 30px;
+  }

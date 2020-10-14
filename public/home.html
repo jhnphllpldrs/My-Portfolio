@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="layout.css" />
+
+    <link rel="shortcut icon" href="icons.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="portfolio" >
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="icon.png" alt=""/></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >About Me <span class="sr-only">(current)</span></a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Knowledge</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container pt-3">
+        <main class="main">
+            <!-----------------------Info----------------------------->
+            <div class="col">
+                <div class="card">
+                <div class="card-body">
+                <div class="h-card row">
+                <div class="col-auto">
+                <a href="home.html" class="logo-link"><img src="jaypi.jpg" width="128" height="128" alt="...." class="border border-9 border-primary rounded-circle u-photo lazyload" loading="lazy"></a>
+                </div>
+                <div class="col">
+                <p class="p-note">
+                <a>Hi I'm <b>John Phillip Laderas</b> but you can also call me <b>Jaypi</b> for short</a>.
+                I'm a <b>Full Stack Engineer</b>, with experience working at <b>Accenture</b> as <b>Transaction Processing (Data Analyst)</b>.  
+                My background in Full Stack Engineer is not that too far as other.<br>
+                But I'm willing to learn and study all the stuff that needed.
+                I considered myself as a <b>‘forever student,’</b> eager to both build on my academic foundations in coding and developing and stay in tune 
+                with the latest strategies.<br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            <!-----------------------About Me----------------------------->
+            <!---------------------Knowledge---------------------------->
+            <!---------------------Experience--------------------------->
+            <!----------------------Contacts---------------------------->
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="sname">Sender Name:</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Sender name..">
+              
+                  <label for="S-Email">Sender Email:</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Sender email..">
+              
+                  <label for="subject">Message:</label><br>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; position: relative; left: 9%;"></textarea>
+              
+                  <button type="button" class="btn btn-outline-dark" value="Submit">Confirm</button>
+              
+                </form>
+              </div>
+
+            <!--------------------------GALLERY------------------------------->
+            <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="travel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Travel</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="photo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Photo</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="food.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Food</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="scene.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Scene</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!----------------------Javascript---------------------------->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
